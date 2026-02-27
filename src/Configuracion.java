@@ -17,7 +17,5 @@ public class Configuracion {
         long totalBytes;
         totalBytes= m3 + ((long) nf1*nc2*4);
         np=(int) Math.ceil((double) totalBytes/tamañoPaginaTP);        
-    }
-        
-    
+    }   
 }
