@@ -10,7 +10,7 @@ public class EscritorArchivo {
         } 
     }
     public void escribirEncabezado(Configuracion configuracion){
-        escritor.println("Tamaño pag: " + configuracion.tamañoPaginaTP);
+        escritor.println("TP: " + configuracion.tamañoPaginaTP);
         escritor.println("NF1: " + configuracion.nf1);
         escritor.println("NC1: "+ configuracion.nc1);
         escritor.println("NF2: "+ configuracion.nf2);
