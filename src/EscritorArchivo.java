@@ -10,13 +10,13 @@ public class EscritorArchivo {
         } 
     }
     public void escribirEncabezado(Configuracion configuracion){
-        escritor.println("TP: " + configuracion.tamañoPaginaTP);
-        escritor.println("NF1: " + configuracion.nf1);
-        escritor.println("NC1: "+ configuracion.nc1);
-        escritor.println("NF2: "+ configuracion.nf2);
-        escritor.println("NC2: "+ configuracion.nc2);
-        escritor.println("NR: " + configuracion.nr);
-        escritor.println("NP: " + configuracion.np);
+        escritor.println("TP=" + configuracion.tamañoPaginaTP);
+        escritor.println("NF1=" + configuracion.nf1);
+        escritor.println("NC1="+ configuracion.nc1);
+        escritor.println("NF2="+ configuracion.nf2);
+        escritor.println("NC2="+ configuracion.nc2);
+        escritor.println("NR=" + configuracion.nr);
+        escritor.println("NP=" + configuracion.np);
     }
     public  void escribirReferencia(String etiqueta, long dv, int tp){
         int pagina= (int) (dv/tp);
